@@ -89,3 +89,39 @@ body{
     top:250px;
     left:270px;
 }
+#jogostext{
+    position: absolute;
+    top:350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    left:30px;
+}
+.jogos{
+    position: absolute;
+    top:370px;
+    left:400px;
+    left:0px;
+    display: flex;
+}
+.jogos div{
+    background-color: rgb(226, 229, 231);
+    height:100px;
+    width:200px;
+    margin:30px;
+    border: 2px solid gray;
+   
+}
+#EUA{
+    position: absolute;
+    left:0px;
+    top:140px;
+    height:100px;
+    width:200px;
+}
+#Marrocos{
+    position: absolute;
+    left:260px;
+    top:140px;
+    height:100px;
+    width:200px;
+}
