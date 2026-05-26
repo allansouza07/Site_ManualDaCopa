@@ -109,7 +109,9 @@ body{
     width:200px;
     margin:30px;
     border: 2px solid gray;
-   
+}
+.jogos p{
+    margin:10px;
 }
 #EUA{
     position: absolute;
@@ -124,4 +126,20 @@ body{
     top:140px;
     height:100px;
     width:200px;
+}
+#mais{
+    position: absolute;
+    left:530px;
+    top:140px;
+    height:100px;
+    width:200px;
+    font-size: 90px;
+
+}
+.bandeira{
+    position: relative;
+    width:30px;
+    height:30px;
+    
+    
 }
