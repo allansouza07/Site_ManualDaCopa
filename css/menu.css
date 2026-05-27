@@ -21,6 +21,13 @@
         left:78px;
         top:16px;;
     }
+    #login{
+    position: absolute ;
+    width:2%;
+    height:4%;
+    left:1220px;
+    top:15px;
+}
     #brasilflag{
         position: absolute;
         width:2%;
@@ -47,17 +54,18 @@
     .meio img{
         position: absolute;
         display: flex;
-        left:900px;
+        left:910px;
         justify-content: right;
-        width:40%;
-        height:90%;
+        width:450px;
+        height:600px;
+        top:-250px;
         
     }
     #logocopa2{
         position: absolute;
-        width:20%;
-        height:70%;
-        top:160px;
+        width:250px;
+        height:450px;
+        top:-200px;
         left:1000px;
     }
     #textocopa{
@@ -111,6 +119,9 @@
         margin:30px;
         border: 2px solid gray;
     
+    }
+    .jogos p{
+        margin:10px;
     }
     #EUA{
         position: absolute;
@@ -264,9 +275,7 @@ body{
 .jogos p{
     margin:10px;
 }
-.jogos p{
-    margin:12px;
-}
+
 #EUA{
     position: absolute;
     left:0px;
