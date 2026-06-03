@@ -2,7 +2,7 @@
     *{
         margin: 0; padding:0; box-sizing: 0;
     }
-    body{
+    .cabecalho{
         
     }
     #album{
@@ -78,10 +78,12 @@
     .menu1{
         height:50px;
         background-color: rgb(0, 0, 0);
+        
     }
     .menu2{
         height:70px;
         background-color: rgb(35, 7, 133);
+        
     }
 
     .cabecalho img{
@@ -108,9 +110,7 @@
         top:-200px;
         left:1025px; 
     }
-    #copa{
-        
-    }
+   
     #textocopa{
         position: absolute;
         top:75px;
@@ -150,7 +150,7 @@
    
     #grupoA{
         display: flex;
-        background-color: aquamarine;
+        background-color:rgb(94, 115, 211);
         border-top: 1px solid black;
         height:250px;
         
@@ -163,7 +163,10 @@
         display: flex;
         left:-170px;
         font-size: 20px;
-        
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #grupoA a{
+        color: white;
     }
 
     
@@ -181,7 +184,55 @@
         position: relative;
         display: flex;
         left:-170px;
-        font-size: 20px;
+        font-size: 20px; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #grupoB a{
+        color: white;
+    }
+
+     
+     #grupoC{
+        display: flex;
+        background-color: rgb(94, 115, 211);
+        border-top: 1px solid black;
+        height:250px;
         
     }
+    #grupoC img{
+        margin:15px;
+    }
+    #grupoC p{
+        position: relative;
+        display: flex;
+        left:-170px;
+        font-size: 20px; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #grupoC a{
+        color: white;
+    }
+
+     
+     #grupoD{
+        display: flex;
+        background-color: rgb(48, 140, 216);
+        border-top: 1px solid black;
+        height:250px;
+        
+    }
+    #grupoD img{
+        margin:15px;
+    }
+    #grupoD p{
+        position: relative;
+        display: flex;
+        left:-170px;
+        font-size: 20px; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #grupoD a{
+        color: white;
+    }
+
 }
