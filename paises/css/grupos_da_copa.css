@@ -202,6 +202,10 @@
         background-color: rgb(35, 7, 133);
         
     }
+     #responsividade {
+        position: relative;
+        left:200px;
+    }
 
     .cabecalho img{
         position: absolute;
@@ -385,7 +389,7 @@
     }
 
 }
-@media screen and (min-width:1600px) {
+@media screen and (min-width:1501px) {
       *{
         margin: 0; padding:0; box-sizing: 0;
     }
@@ -396,12 +400,12 @@
         top:15px;
         position: absolute;
         color:white;
-        left:1000px;
+        left:1450px;
     }
     #logomenu{
         position: absolute;
-        width:5%;
-        height:8%;
+        width:3.5%;
+        height:5%;
         top:0px
     }
     .sidebar{
@@ -435,7 +439,7 @@
     position: absolute ;
     width:1.5%;
     height:3%;
-    left:1520px;
+    left:1920px;
     top:15px;
 }
     #fifa{
@@ -450,16 +454,16 @@
     }
     #login{
     position: absolute ;
-    width:2%;
-    height:4%;
-    left:1220px;
+    width:1.5%;
+    height:3%;
+    left:1670px;
     top:15px;
 }
     #brasilflag{
         position: absolute;
         width:2%;
         height:2.5%;
-        left:1280px;
+        left:1780px;
         top:20px;
     }
     .menu1{
@@ -472,6 +476,10 @@
         background-color: rgb(35, 7, 133);
         
     }
+    #logocopa{
+        position:absolute;
+        width:2.5%;
+        height:5%;}
 
     .cabecalho img{
         position: absolute;
@@ -490,6 +498,7 @@
         top:-250px;
         
     }
+
     #logocopa2{
         position: absolute;
         width:30%;
@@ -526,14 +535,19 @@
 
     .grupos{
         position: relative;
+
         justify-content: center;
         top:100px;
         border: 2px solid black;
-        background-color: black;
+        background-color: rgb(94, 115, 211);
         color:white;
         margin:10px;
+        
     }
-    
+    #responsividade {
+        position: relative;
+        left:300px;
+    }
    /* GRUPO A */
     #grupoA{
         display: flex;
@@ -651,3 +665,5 @@
         background-color: black;
     }
 }
+
+
