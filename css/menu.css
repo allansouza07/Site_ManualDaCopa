@@ -83,6 +83,19 @@
     .menu2{
         height:70px;
         background-color: rgb(35, 7, 133);
+    }    
+    .menu2{
+        display:flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .menu2 p{
+        color:white;
+        margin:20px;
+    }
+    .menu2 p:hover{
+        text-decoration: none;
+        color:yellow;
     }
 
     .cabecalho img{
@@ -118,19 +131,7 @@
         left:70px;
         color: white;
     }
-    .menu2{
-        display:flex;
-        align-items: center;
-        justify-content: right;
-    }
-    .menu2 p{
-        color:white;
-        margin:20px;
-    }
-    .menu2 p:hover{
-        text-decoration: none;
-        color:yellow;
-    }
+
     .mensagem h1{
         position: absolute;
         top:210px;
